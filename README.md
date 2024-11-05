@@ -1,4 +1,10 @@
 # Blum Telegram Bot Full AFK Nonstop Ticket Minigame Collection Software
+<br>
+
+## USE FOR FREE BLUM FARMER!
+[Blum Auto Farmer and Clicker Full Automatic](https://codeshare.me/c/14pfj9idi1gi9wxs)
+
+<br>
 
 ## Features
 - **Multi-Platform Compatibility**: Can be used on both computer and phone. (Phone users may incur an additional $2-3 cost.)
