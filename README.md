@@ -29,4 +29,4 @@ Our comprehensive, automated ticket collection software is perfect for anyone lo
 [Watch the Setup Video](https://www.youtube.com/watch?v=RJ84fMLJCaw)
 
 ## Original Project Files
-[Access the Project Files](https://codeshare.me/c/14pfj9idi1gi9wxs)
+[Blum Auto Farmer and Clicker Full Automatic](https://codeshare.me/c/14pfj9idi1gi9wxs)
