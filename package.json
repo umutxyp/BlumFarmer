@@ -10,7 +10,9 @@
     "os": "^0.1.2"
   },
   "scripts": {
-    "build": "electron-builder"
+    "start": "electron .",
+    "package": "electron-builder --dir",
+    "make": "electron-builder"
   },
   "build": {
     "appId": "me.codeshare.blumfarmer",
