@@ -1,7 +1,7 @@
 # Blum Farmer - Blum Telegram Bot Full AFK Nonstop Ticket Minigame Collection Software
 Fully automated ticket spending software for the Blum telegram bot.
 
-## [BlumFarmer Drive Demo Link](https://drive.google.com/file/d/1qzH35r-jIqKW9ZDQyALasbczBuZTaBGa/view?usp=sharing)
+## [Blum Farmer Drive Demo Link](https://drive.google.com/file/d/1qzH35r-jIqKW9ZDQyALasbczBuZTaBGa/view?usp=sharing)
 
 ## Installation
 
