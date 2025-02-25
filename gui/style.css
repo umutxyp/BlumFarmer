@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.center-bar-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    border-radius: 10px; 
+    background-image: linear-gradient(to right,
+        rgb(54, 252, 54),
+        rgba(42, 42, 253, 0.993),
+        rgb(54, 200, 54),
+        rgba(42, 42, 200, 0.993),
+        rgb(54, 150, 54),
+        rgba(42, 42, 150, 0.993),
+        rgb(54, 100, 54),
+        rgba(42, 42, 100, 0.993),
+        rgb(54, 50, 54),
+        rgba(42, 42, 50, 0.993));
+    background-size: 300% 100%; 
+    animation: rainbow-animation 5s linear infinite;
+    z-index: 99999999999; 
+}
+
+.center-bar {
+    background-color: #1e1e1e; 
+    padding: 50px;
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes rainbow-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.center-bar h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.center-bar button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.center-bar button:hover {
+    background-color: #ddd;
+}
+
+.line {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.line.horizontal {
+    width: 100%;
+    height: 1px;
+}
+
+.line.vertical {
+    width: 1px;
+    height: 100%;
+}
+
+.moving-line {
+    position: absolute;
+    width: 1px;
+    height: 5vh;
+    background: linear-gradient(180deg, rgba(0, 255, 0, 0.082) 0%, rgba(0, 255, 0, 0.482) 50%, rgb(15, 255, 2) 100%);
+    animation: moveLine 3s infinite linear;
+    opacity: 1;
+    z-index: 1;
+    box-shadow: 0 0 10px rgb(0, 255, 21), 0 0 20px rgb(0, 255, 0), 0 0 30px rgb(0, 255, 0), 0 0 40px rgb(0, 255, 0); /* Neon efekti */
+}
+
+@keyframes moveLine {
+    0% {
+        transform: translateY(-30vh);
+    }
+    100% {
+        transform: translateY(100vh); 
+    }
+}
+
+.snowflake {
+    position: absolute;
+    top: -10%;
+    width: 30px;
+    height: 30px;
+    background-image: url('blumflake.png'); 
+    background-size: cover;
+    opacity: 0.8;
+    animation: fall 10s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group select, .form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.form-group input[type="file"] {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.form-group button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,52 @@
+{
+  "name": "blumfarmer",
+  "version": "2.0.0",
+  "main": "main.js",
+  "author": "Umut Bayraktar",
+  "license": "MIT",
+  "description": "Fully automated ticket spending software for the Blum telegram bot.",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2"
+  },
+  "scripts": {
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "me.codeshare.blumfarmer",
+    "productName": "Blum Farmer",
+    "copyright": "Copyright © 2025 Umut Bayraktar",
+    "files": [
+      "blumfarmer.ico",
+      "blumfarmer.png",
+      "main.js",
+      "setup.py",
+      "main.py",
+      "gui/**/*",
+      "utility/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "nsis": {
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "uninstallerIcon": "blumfarmer.ico",
+      "uninstallerSidebar": "blumfarmer.png",
+      "oneClick": true,
+      "perMachine": true
+    },
+    "asar": false,
+    "win": {
+      "requestedExecutionLevel": "requireAdministrator",
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "blumfarmer.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8"
+  }
+}

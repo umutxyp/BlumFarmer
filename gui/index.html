@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Blum Farmer | @umutxyp</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="center-bar-wrapper">
+        <div class="center-bar">
+            <div id="header">
+                <h1>Blum Farmer</h1>
+                <hr style="background-color: #24a631; color: #24a631; height: 1px; border: 0;">
+                <br>
+                <button id="join_our_blum_team">Start</button>
+            </div>
+
+            <div id="blum_team" class="hidden">
+                <p style="color: #ffff; font-size: 1.25rem;">Hey Blumies, thanks for using our blum auto farm app. Why
+                    don't you join our blum team and earn 10% more blum points? 🚀</p>
+                    <br>
+                    <hr style="background-color: #24a631; color: #24a631; height: 1px; border: 0;">
+                <br>
+                <button id="join_blum_team">Join Blum Team!</button>
+                <button id="launch_blum_farmer" class="hidden">Start Blum Farmer!</button>
+            </div>
+
+
+            <div id="form-container" class="hidden">
+                <div class="form-group">
+                    <label for="speed">What percentage of Blum Coins should be collected?</label>
+                    <select id="speed">
+                        <option value="1">100%</option>
+                        <option value="0.9">90%</option>
+                        <option value="0.8">80%</option>
+                        <option value="0.7">70%</option>
+                        <option value="0.6">60%</option>
+                        <option value="0.5">50%</option>
+                        <option value="0.4">40%</option>
+                        <option value="0.3">30%</option>
+                        <option value="0.2">20%</option>
+                        <option value="0.1">10%</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Should in game pause (freeze) be selected?</label>
+                    <select id="pause">
+                        <option value="True">Yes</option>
+                        <option value="False">No</option>
+                    </select>
+                </div>
+                <hr style="background-color: #24a631; color: #24a631; height: 1px; border: 0;">
+                <br>
+                <button id="complete_and_start">Complete and Start!</button>
+            </div>
+
+            <div id="status" class="hidden">
+                <h1>Blum Farmer</h1>
+                <hr style="background-color: #24a631; color: #24a631; height: 1px; border: 0;">
+                <br>
+                <p style="color: #68fc5d;">Thank you, the process begins..</p>
+                <br>
+                <p style="color: #ffff; font-size: 1.25rem;">You can turn the game on/off by pressing the f6 key.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-gray-400 text-center py-3" style="position: absolute; bottom: 0; width: 100%; z-index: 100000000000;">
+        <p>
+          Producer: <a href="https://github.com/umutxyp" class="hover:text-white external-link">umutxyp</a> | Powered by <a
+            href="https://codeshare.me" class="hover:text-white external-link">codeshare.me</a>
+        </p>
+      </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
