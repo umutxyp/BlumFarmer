@@ -56,3 +56,11 @@ Our comprehensive, automated ticket collection software is perfect for anyone lo
 
 ## Original Project Files
 [Blum Auto Farmer and Clicker Full Automatic](https://codeshare.me/c/14pfj9idi1gi9wxs)
+
+## License
+
+MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+**Producer**: [umutxyp](https://github.com/umutxyp) | Powered by [codeshare.me](https://codeshare.me)
