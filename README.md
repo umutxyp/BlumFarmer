@@ -1,8 +1,36 @@
-# Blum Telegram Bot Full AFK Nonstop Ticket Minigame Collection Software
-<br>
+# Blum Farmer - Blum Telegram Bot Full AFK Nonstop Ticket Minigame Collection Software
 
-## USE FOR FREE BLUM FARMER!
-[Blum Auto Farmer and Clicker Full Automatic](https://codeshare.me/c/14pfj9idi1gi9wxs)
+Phonery is a simple and efficient Electron application designed to extract phone numbers from Excel files. It allows users to filter phone numbers based on prefixes and download the extracted numbers in a `.txt` format.
+
+## Demo
+## [BlumFarmer Drive Demo Link](https://drive.google.com/file/d/1o2yInHU-YQWU-pizdSiZqGfi7Wb19PE8/view?usp=sharing)
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/umutxyp/BlumFarmer.git
+    cd BlumFarmer
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Build and package the app:
+
+    ```bash
+    npm run package
+    ```
+
+4. To start the app in development mode:
+
+    ```bash
+    npm start
+    ```
 
 <br>
 
