@@ -1,8 +1,6 @@
 # Blum Farmer - Blum Telegram Bot Full AFK Nonstop Ticket Minigame Collection Software
+Fully automated ticket spending software for the Blum telegram bot.
 
-Phonery is a simple and efficient Electron application designed to extract phone numbers from Excel files. It allows users to filter phone numbers based on prefixes and download the extracted numbers in a `.txt` format.
-
-## Demo
 ## [BlumFarmer Drive Demo Link](https://drive.google.com/file/d/1qzH35r-jIqKW9ZDQyALasbczBuZTaBGa/view?usp=sharing)
 
 ## Installation
